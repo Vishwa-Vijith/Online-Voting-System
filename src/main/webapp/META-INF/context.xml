@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+    name="jdbc/candidates"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="com.mysql.cj.jdbc.Driver" 
+    url="jdbc:mysql://localhost:3306/onlinevoting"
+    username="root"
+    password="Password123#@!"
+    maxActive="100"
+    maxIdle="30"
+    maxWait="10000"
+/>
+
+</Context>
